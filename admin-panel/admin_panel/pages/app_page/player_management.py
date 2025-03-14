@@ -35,10 +35,6 @@ class PlayerManagementPage(rio.Component):
     wallet_status: str = ""
     inventory_status: str = ""
 
-    # Services
-    # _wallet_service: WalletService
-    # _inventory_service: InventoryService
-
     def __post_init__(self,):
         # super().__init__(**kwargs)
         self._wallet_service = WalletService()

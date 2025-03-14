@@ -130,7 +130,7 @@ class Navbar(rio.Component):
             navbar_content.add(
                 rio.Link(
                     rio.Button(
-                        "Player Management",
+                        "Gerenciamento de Jogadores",
                         icon="material/person",
                         style=(
                             "major"
